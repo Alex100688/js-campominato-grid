@@ -40,8 +40,8 @@ main{
     align-items: center;
 }
 .campo-box{
-    width: 31.25rem;
-    height: 31.25rem;
+    width: 25rem;
+    height: 25rem;
     display: flex;
     flex-wrap: wrap;
    align-content: flex-start;
