@@ -1,13 +1,16 @@
 "use strict";
-const displayBox=document.querySelector(".display-box");
-const giocoPlay=document.querySelector(".btn-play");
-giocoPlay.addEventListener(`click`, function(){
-    displayBox.classList.toggle("display-box");
-    const campoBox=document.querySelector(".campo-box");
-    for (let i = 1; i <=100; i++) {
-        const cellBox=document.createElement("div");
-        cellBox.innerHTML=(i);
-        cellBox.classList.add("cell-box");
-        campoBox.append(cellBox);
-    }
+const buttonPlay=document.querySelector(".btn-play");
+buttonPlay.addEventListener('click', function(){
+    window.location.reload();
 })
+
+const campoBox=document.querySelector(".campo-box");
+for (let i = 1; i <=100; i++) {
+    const boxCell=document.createElement("div");
+    boxCell.innerHTML=i;
+    boxCell.classList.add("cell-box");
+    boxCell.addEventListener('click', function(){
+        this.classList.toggle("number");
+    });
+    campoBox.append(boxCell);
+}

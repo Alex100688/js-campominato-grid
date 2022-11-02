@@ -26,11 +26,13 @@ header{
     padding: 1.25rem;
     border-radius: .9375rem;
     font-size: 1.25rem;
+    font-weight: bold;
     text-align: center;
     line-height: 1.25rem;
-    background-color: #ffff;
+    background-color: #eeee;
 
 }
+
 
 main{
     flex-grow: 1;
@@ -50,12 +52,8 @@ main{
    
 }
 
-.display-box{
-    display: none;
-}
-.display-box-block{
-    display: block;
-}
+
+
 
 .cell-box{
    width: calc(100% / 10);
@@ -67,4 +65,9 @@ main{
 }
 footer{
     padding: 1.25rem;
+}
+
+.number{
+    color: white;
+    background-color: green;
 }
