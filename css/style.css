@@ -39,12 +39,22 @@ main{
     justify-content:center ;
     align-items: center;
 }
+
+
 .campo-box{
     width: 25rem;
     height: 25rem;
     display: flex;
     flex-wrap: wrap;
    align-content: flex-start;
+   
+}
+
+.display-box{
+    display: none;
+}
+.display-box-block{
+    display: block;
 }
 
 .cell-box{
