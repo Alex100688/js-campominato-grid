@@ -4,3 +4,57 @@
     padding: 0;
     margin: 0;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 1rem;
+}
+
+.title{
+    font-size: 2.8125rem;
+    font-weight: bold;
+}
+.btn-play{
+    padding: 1.25rem;
+    border-radius: .9375rem;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.25rem;
+    background-color: #ffff;
+
+}
+
+main{
+    flex-grow: 1;
+    background-color: #7fffd4;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.campo-box{
+    width: 31.25rem;
+    height: 31.25rem;
+    display: flex;
+    flex-wrap: wrap;
+   align-content: flex-start;
+}
+
+.cell-box{
+   width: calc(100% / 10);
+   height: calc(100% / 10);
+   border: .0625rem solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+footer{
+    padding: 1.25rem;
+}
