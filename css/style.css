@@ -15,7 +15,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   padding: 1rem;
+    flex-shrink: 1;
+   padding: 1.25rem;
 }
 
 .title{
@@ -30,7 +31,12 @@ header{
     text-align: center;
     line-height: 1.25rem;
     background-color: #eeee;
-
+}
+.play-minato{
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: block;
+    
 }
 
 
@@ -67,7 +73,13 @@ footer{
     padding: 1.25rem;
 }
 
-.number{
+.number-green{
     color: white;
     background-color: green;
 }
+
+.number-red{
+    color: black;
+    background-color: red;
+}
+

@@ -10,7 +10,9 @@ for (let i = 1; i <=100; i++) {
     boxCell.innerHTML=i;
     boxCell.classList.add("cell-box");
     boxCell.addEventListener('click', function(){
-        this.classList.toggle("number");
+        this.classList.add("number-green");
+        this.classList.toggle("number-red")
+       
     });
     campoBox.append(boxCell);
 }
